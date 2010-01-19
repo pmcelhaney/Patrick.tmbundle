@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>scope</key>
+		<string>text.html.cfm </string>
+		<key>settings.disableDefaultCompletion</key>
+		<integer>0</integer>
+	</dict>
+	<key>deleted</key>
+	<array/>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>BB325CAB-9A35-44E8-A2EC-2AEB699239BC</string>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;cffunction name = "set_${1}"&gt;
+	&lt;cfargument name="${1/(^\w)/\L$1/}"&gt;
+	&lt;cfset variables.${1/(^\w)/\L$1/} = arguments.${1/(^\w)/\L$1/}&gt;
+&lt;/cffunction&gt;
+$0
+	</string>
+	<key>name</key>
+	<string>setter method</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>setter</string>
+	<key>uuid</key>
+	<string>C726200A-2F4D-4293-9F0A-7A87595229C0</string>
+</dict>
+</plist>

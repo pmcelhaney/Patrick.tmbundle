@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;div&gt;
+	&lt;label for="${2:${1/[[:alpha:]]+|( )/(?1:_:\L$0)/g}}"&gt;$1&lt;/label&gt;
+	&lt;input type="${3:text}" name="${4:$2}" value="$5"${6: id="${7:$2}"} size="${8:40}" ${TM_XHTML}&gt;
+&lt;/div&gt;
+</string>
+	<key>name</key>
+	<string>Label + text input</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>label</string>
+	<key>uuid</key>
+	<string>116C8D78-2BFA-449F-8F0B-F4AA29AFEB68</string>
+</dict>
+</plist>

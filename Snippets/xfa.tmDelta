@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>content</key>
+		<string>#settings.self#fuseaction=${1:#fusebox.circuit#}.${2:#fusebox.fuseaction#}${3:&amp;amp;${4:id}=${5}}$0</string>
+	</dict>
+	<key>deleted</key>
+	<array/>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>F1F0012D-1319-4888-BDA5-1F62C7AF645B</string>
+</dict>
+</plist>

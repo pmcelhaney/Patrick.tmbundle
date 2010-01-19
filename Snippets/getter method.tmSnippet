@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;cffunction name = "get_${1}"&gt;
+	&lt;cfreturn variables.${1/(^\w)/\L$1/}&gt;
+&lt;/cffunction&gt;
+$0
+	</string>
+	<key>name</key>
+	<string>getter method</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>getter</string>
+	<key>uuid</key>
+	<string>124F29DE-CDD1-431E-94CA-B719DF05EC8D</string>
+</dict>
+</plist>
